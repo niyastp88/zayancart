@@ -13,8 +13,7 @@ const connectDB = async () => {
     // Log error message if connection fails
     console.log("MongoDb connection failed", error);
 
-    // Exit process with failure status
-    process.exit(1);
+    
   }
 };
 

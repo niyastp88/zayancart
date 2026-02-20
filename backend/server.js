@@ -64,6 +64,4 @@ app.use("/api/admin/users", adminRoutes);
 app.use("/api/admin/products", productAdminRoutes);
 app.use("/api/admin/orders", adminOrderRoutes);
 
-app.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
-});
+module.exports = app;
